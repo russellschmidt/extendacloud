@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+div#cutphonecord_image {
+  margin-bottom: 5%;
+}
+#cutphonecord_image img {
+  width: 90%;
+  text-align: center;
+}
