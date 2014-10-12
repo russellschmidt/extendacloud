@@ -20,5 +20,18 @@ div#cutphonecord_image {
 }
 #cutphonecord_image img {
   width: 90%;
+  max-width: 400px;
   text-align: center;
+}
+
+#carousel-homepage h3, #carousel-homepage span {
+  color: #f39c12;
+}
+
+#carousel-homepage .carousel-indicators li {
+  background-color: #f39c12;
+}
+
+#carousel-homepage .carousel-indicators .active {
+  background-color: #f34c09
 }

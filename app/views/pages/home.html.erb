@@ -2,8 +2,47 @@
 <div class="jumbotron">
   <h1>One bill. No confusion.</h1>
   <p>Streamline your communications with the ExtendaCloud internet-based telephone system.</p>
-  Click here to <%= link_to "Learn More", "#", class: "btn btn-primary" %>
+  Click here to <%= link_to "Learn More", contact_path, class: "btn btn-primary" %>
 </div>
+
+<div id="carousel-homepage" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-homepage" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-homepage" data-slide-to="1"></li>
+    <li data-target="#carousel-homepage" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag "zultys_zip_37g_md.jpg"%>
+      <div class="carousel-caption">
+        <h3>The 37g features dual Gigabit ports, full color display and 20 customizable one-touch-access feature keys</h3>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag "zultys_zip_35i_md.jpg"%>
+      <div class="carousel-caption">
+        <h3>The 35i has a large, icon-based display and 6 programmable keys for easy-to-use communications</h3>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag "zultys_zip_59i_md.jpg"%>
+      <div class="carousel-caption">
+        <h3>The 59i telephone features a color, touchscreen display, stylish appeal and wideband audio</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-homepage" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-homepage" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
 
 <div>
   <div class="col-md-6" id="cutphonecord_image">
@@ -18,6 +57,8 @@
 <div>
   <div class="col-md-12">
     <h2>Cutting edge features, traditional customer service</h2>
+    <p>Moving to the cloud means that you need a communications partner that knows what they are doing.
+    </p>
   </div>
   <div class="col-md-6">
     <h3>Take control</h3>
@@ -96,12 +137,6 @@
         </ul>
       </p>
     </div>
-  </div>
-</div>
-
-<div>
-  <div class="col-md-12">
-    <h2>Cool phones</h2>
   </div>
 </div>
 
