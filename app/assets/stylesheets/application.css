@@ -36,7 +36,7 @@ div#cutphonecord_image {
   background-color: #f34c09
 }
 
-p#logo-paragraph {
+p.image-float-right {
   float: right;
 }
 
