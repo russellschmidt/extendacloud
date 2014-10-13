@@ -110,6 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer (~> 4.1.6)
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
