@@ -35,3 +35,19 @@ div#cutphonecord_image {
 #carousel-homepage .carousel-indicators .active {
   background-color: #f34c09
 }
+
+p#logo-paragraph {
+  float: right;
+}
+
+#cloud_system_service_locations h1 {
+  font-size: 14px;
+}
+
+#cloud_system_service_locations h3 {
+  font-size: 11px;
+}
+
+#cloud_system_service_locations p {
+  font-size: 9px;
+}
